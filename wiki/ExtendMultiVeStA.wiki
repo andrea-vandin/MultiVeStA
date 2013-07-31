@@ -2,7 +2,7 @@
 
 = Extend MultiVeStA with a new simulator =
 
-In the following is described the steps that must be followed to integrate your simulator in MultiVeStA, if it does not belongs to the list of currently supported simulators.
+In the following are described the steps that must be followed to integrate your simulator in MultiVeStA, if it does not belongs to the list of currently supported simulators.
 
 
 == Extend _NewState_ class of _MultiVeStA _ ==
