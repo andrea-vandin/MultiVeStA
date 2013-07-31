@@ -5,7 +5,7 @@
 In the following is described the steps that must be followed to integrate your simulator in MultiVeStA, if it does not belongs to the list of currently supported simulators.
 
 
-== Extend NewState class of _MultiVeStA _ ==
+== Extend _NewState _ class of _MultiVeStA _ ==
 In the following are described the methods that must be implemented to extend the _NewState_ class.
 
    * All parameters that the user pass to MultiVeStA client that are not direclty used by the MultiVeStA engine are stored in _*params*_ and can be retrieved through _*params.getOtherParameters()*_. These optional parameters corresponds to the one provided with the _*ssp*_ options.
