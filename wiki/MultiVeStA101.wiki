@@ -1,0 +1,9 @@
+#summary Steps to exploit MultiVeStA.
+
+= Overall vision to use MultiVeStA  =
+
+In the following there is a summary of the steps needed to use MultiVeStA:
+
+  * Download the latest version of Multivesta from the [download page]
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
