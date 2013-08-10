@@ -22,8 +22,15 @@ In the following are provided some example supposing that the state evaluator pr
 
 == Basic expression ==
 
-_Compute the expected number of tasks executed in a simulation (*rval(0)*)_
+_Compute the expected number of tasks executed (*rval(6)*) in a simulation (*rval(0)*)_
 
 tOp () = if { s.rval(0) == 1.0 } then s.rval(6) else #tOp () fi ;
 
 eval E[ tOp () ] ;
+
+== Parametric expression ==
+
+_Compute the expected value of the mean time spent by tasks in queue (*rval(5)*), imposing 30 as maximum simulation time (*rval(1)*)_
+
+tOpB (x) = if { s.rval(1) >= x } then s.rval(5) else #tOpB () fi ;
+eval E[ tOp (30.0) ] ;
