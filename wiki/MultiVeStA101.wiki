@@ -1,4 +1,5 @@
 #summary Steps to exploit MultiVeStA.
+#labels Featured
 
 = Using MultiVeStA overall vision=
 
