@@ -1,0 +1,20 @@
+#summary MultiQuaTEx syntax and examples.
+
+= MultiQuaTEx syntax =
+
+MultiQuaTEx extends the syntax provided by QuaTEx. In the following is summarized the syntax
+
+MQ ::= DS EL
+EL ::= list of eval E[PExp];
+
+DS ::= set of Defn
+Defn ::= N(x1; : : : ; xm) = PExp;
+SExp ::= c | rval(i) | F (SExp1; : : : ; SExpk ) | xj
+PExp ::= SExp | #N(SExp1; : : : ; SExpn) | if SExp then PExp1 else PExp2 fi
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
