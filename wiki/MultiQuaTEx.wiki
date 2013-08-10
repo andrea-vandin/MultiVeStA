@@ -6,7 +6,7 @@ MultiQuaTEx extends the syntax provided by QuaTEx. In the following is summarize
 
 MQ ::= DS EL
 
-EL ::= list of eval E*[PExp*];
+EL ::= list of eval E*[PExp];
 
 DS ::= set of Defn
 
