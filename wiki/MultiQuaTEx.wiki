@@ -10,10 +10,19 @@ EL ::= list of eval E*[PExp*];
 
 DS ::= set of Defn
 
-Defn ::= N(x1; : : : ; xm) = PExp;
+Defn ::= N(x1, ..., xm) = PExp;
 
-SExp ::= c | rval(i) | F (SExp1; : : : ; SExpk ) | xj
+SExp ::= c | rval(i) | F (SExp1, ..., SExpk ) | xj
 
-PExp ::= SExp | #N(SExp1; : : : ; SExpn) | if SExp then PExp1 else PExp2 fi
+PExp ::= SExp | #N(SExp1, ..., SExpn) | if SExp then PExp1 else PExp2 fi
 
 = Examples =
+
+In the following are provided some example supposing that the state evaluator provides the requested observations
+
+# == Basic expression ==
+_Compute the expected number of tasks executed in a simulation (*rval(0)*)_
+
+tOp () = if { s.rval(0) == 1.0 } then s.rval(6) else #tOp () fi ;
+
+eval E[ tOp () ] ;
