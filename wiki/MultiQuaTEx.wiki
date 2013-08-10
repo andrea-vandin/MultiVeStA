@@ -6,7 +6,7 @@ MultiQuaTEx extends the syntax provided by QuaTEx. In the following is summarize
 
 MQ ::= DS EL
 
-EL ::= list of eval E*[PExp*];
+EL ::= list of eval E*[PExp]*;
 
 DS ::= set of Defn
 
@@ -36,7 +36,7 @@ _Compute the expected value of the mean time spent by tasks in queue (*rval(5)*)
 
 tOpB (x) = if { s.rval(1) >= x } then s.rval(5) else #tOpB () fi ;
 
-eval E*[ tOp (30.0) *] ;
+eval E*[tOp(30.0)]*;
 
 
 == Multi expression ==
