@@ -1,0 +1,12 @@
+#summary Parameter supported by the MultiVeStA client.
+
+= MultiVeStA client =
+
+In the following are described the parameters through which is possible to describe the MultiVeStA behavior.
+
+   * _*m*_ simulation model name
+   * _*l*_
+
+
+E.g.
+-m examples/acoLoadBalancing_s1.xml -l examples/serverlist1 -se it.imtlucca.aco.dvesta.AcoDeusStateEvaluator -f examples/quatex/acoPerformanceIndicators_mp_queue.quatex -bs 3 -a 0.05 -d1 0.0001  -osws ONESTEP -sots 12345 -sd deus.DeusState -ms 5  -ds [0.01,0.02,0.03,0.04]
