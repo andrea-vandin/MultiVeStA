@@ -27,7 +27,7 @@ _Compute the expected number of tasks executed (*rval(6)*) in a simulation (*rva
 
 tOp () = if { s.rval(0) == 1.0 } then s.rval(6) else #tOp () fi ;
 
-eval E*[tOp ()*] ;
+eval E*[tOp()*];
 
 
 == Parametric expression ==
