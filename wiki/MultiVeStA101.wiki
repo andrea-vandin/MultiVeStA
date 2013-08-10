@@ -4,7 +4,7 @@
 
 In the following there is a summary of the steps needed to use MultiVeStA:
 
-  * Download the latest version of Multivesta from the [download page]
+  * Download the latest version of Multivesta from the [https://docs.google.com/file/d/0B1wH4SBkfGwYUklocFMtSWlIMkU/edit?usp=sharing download page]
   * If your simulator is not currently supported (check the list in the [http://code.google.com/p/multivesta/ home page]) [http://code.google.com/p/multivesta/wiki/ExtendMultiVeStA extend MultiVeStA] to support it
   * [http://code.google.com/p/multivesta/wiki/LinkYourModel Link your model to MultiVeStA]
   * Define [http://code.google.com/p/multivesta/wiki/MultiQuaTEx MultiQuaTEx expression]
