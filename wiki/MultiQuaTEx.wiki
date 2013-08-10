@@ -47,7 +47,7 @@ tOp () = if { s.rval(0) == 1.0 } then s.rval(6) else #tOp () fi ;
 
 tOpB (x) = if { s.rval(1) >= x } then s.rval(5) else #tOpB ({x}) fi ;
 
-eval E*[ tOp () *] ; eval E*[ tOpB (30.0) *] ;
+eval E*[tOp()]*; eval E*[tOpB(30.0)]*;
 
 
 == Parametric - Multi expression (1) ==
@@ -56,11 +56,11 @@ _Evaluating the time spent by tasks in queue at different times_
 
 tOpC (x) = if { s.rval(2) <= x } then s.rval(5) else #tOpC ({x}) fi ;
 
-eval E*[ tOpC (10.0) *] ; eval E*[ tOpC (20.0) *] ;
+eval E*[tOpC(10.0)]*; eval E*[tOpC(20.0)]*;
 
-eval E*[ tOpC (30.0) *] ; eval E*[ tOpC (40.0) *] ;
+eval E*[tOpC(30.0)*]; eval E*[tOpC(40.0)]*;
 
-eval E*[ tOpC (50.0) *] ; eval E*[ tOpC (60.0) *] ;
+eval E*[tOpC(50.0)*]; eval E*[tOpC(60.0)]*;
 
 
 == Parametric - Multi expression (2) ==
@@ -69,7 +69,7 @@ _Exploiting the MultiQuaTEx syntax is possible to define the previous expression
 
 tOpC (x) = if { s.rval(2) <= x } then s.rval(5) else #tOpC ({x}) fi ;
 
-eval parametric(E*[ tOpC (x) *],x,10.0,10.0,60.0) ;
+eval parametric(E*[tOpC(x)]*,x,10.0,10.0,60.0) ;
 
 
 == More complex expression ==
