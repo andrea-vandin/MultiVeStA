@@ -6,7 +6,7 @@ In the following are described the steps that must be followed to integrate your
 
 It is possible to use MultiVeStA also with non Java-based simulator through wrapping approach. Follow the steps described in our [http:// paper] or contact us.
 
-   * Create a new Java project referencing the latest version of MultiVeStA.jar [http://... downloaded from this site]
+   * Create a new Java project referencing the latest version of MultiVeStA.jar [https://docs.google.com/file/d/0B1wH4SBkfGwYUklocFMtSWlIMkU/edit?usp=sharing downloaded from this site]
    * Add visibility of your simulator
    * extend the _NewState_ class (as described below)
    * package the project in a new MultiVeStA.jar with the support for your simulator
