@@ -20,7 +20,8 @@ PExp ::= SExp | #N(SExp1, ..., SExpn) | if SExp then PExp1 else PExp2 fi
 
 In the following are provided some example supposing that the state evaluator provides the requested observations
 
-# == Basic expression ==
+== Basic expression ==
+
 _Compute the expected number of tasks executed in a simulation (*rval(0)*)_
 
 tOp () = if { s.rval(0) == 1.0 } then s.rval(6) else #tOp () fi ;
