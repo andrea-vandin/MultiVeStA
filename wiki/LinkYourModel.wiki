@@ -2,7 +2,7 @@
 
 = Link your simulation model to MultiVeStA =
 
-Here are described the steps that must be followed before analyze your model using MultiVeStA.
+Here are described the steps that must be followed before analyze your model using MultiVeStA. However, if you have a simulator, and you want to enrich it with efficient, distributed and automated statistical analysis techniques, just send an e-mail to us, and we will be happy collaborate to the integration. 
 
 
 == Implement model specific state evaluation ==
