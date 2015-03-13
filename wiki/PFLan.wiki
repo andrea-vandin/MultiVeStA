@@ -4,7 +4,7 @@
 
 PFlan is a probabilistic feature-oriented language to specify models of software product lines with probabilistic configurations and behaviour, e.g. by considering a PFLan semantics based on discrete-time Markov chains. 
 
-The (Maude) implementation of PFLAN has been combined with MultiVeStA to perform quantitative analyses of software product lines. 
+The prototypal (Maude) implementation of PFLAN has been combined with MultiVeStA to perform quantitative analyses of software product lines. 
 
 The integration has been presented at the [http://fmsple15.isti.cnr.it/ 6th Workshop on Formal Methods and Analysis in SPL Engineering] ([https://www.dropbox.com/s/ksa5brtj3p5c75x/FMSPLE.pdf?dl=0 draft]). 
 
