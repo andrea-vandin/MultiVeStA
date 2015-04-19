@@ -12,9 +12,8 @@ The integration is discussed in detail in a draft submitted at the [http://www.s
 
 In the paper, the integration has been exploited to analyse a bikes product line. The presented analyses include the likelihood of certain behaviour of interest (e.g. disposal of broken bike), the expected average cost and weight of bikes, and the probability of install and uninstall certain features.
 
-
----
 A ready to use version of MultiVeStA integrating QFLan is available [MISSINGLINK here] together with all files necessary to reproduce the experiments discussed in the draft.
 
+---
 
 We thank Dorel Lucanu, Grigore Rosu, Andrei Stefanescu, and Andrei Arusoaie for sharing with us their own integration of Maude and z3, which we adapted for our purposes.
