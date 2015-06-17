@@ -1,6 +1,6 @@
 _*MultiVeStA*_ is an efficient statistical analysis tool which can be easily integrated with existing discrete event simulators, enriching them with distributed Statistical Analysis and Statistical Model Checking capabilities.
 
-The tool is maintained and developed by Stefano Sebastio and [http://www.ecs.soton.ac.uk/people/av1v13 Andrea Vandin]. The tool comes as an extension of the existing VeStA and PVeStA tools, developed at the Department of Computer Science at the University of Illinois at Urbana-Champaign.
+The tool is maintained and developed by Stefano Sebastio and [Andrea Vandin](http://www.ecs.soton.ac.uk/people/av1v13). The tool comes as an extension of the existing VeStA and PVeStA tools, developed at the Department of Computer Science at the University of Illinois at Urbana-Champaign.
 
 The currently supported discrete event simulators are (in alphabetic order):
    * [http://apice.unibo.it/xwiki/bin/view/Alchemist/ Alchemist]: _a simulator targeting chemical-oriented computational systems_
