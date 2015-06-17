@@ -8,7 +8,7 @@ A prototypal Maude implementation of QFLan exists, combined with the state-of-th
 
 The QFLAN interpreter  has been combined with MultiVeStA to perform quantitative analyses of software product lines. 
 
-The integration is discussed in detail in a draft submitted at the [http://www.splc2015.net/ 19th International Software Product Line Conference] ([https://www.dropbox.com/s/qty17idt76lbaie/SPLC15.pdf?dl=0 draft]). 
+The integration is discussed in detail in a paper recently accepted for pubblication at the [http://www.splc2015.net/ 19th International Software Product Line Conference] ([https://www.dropbox.com/s/qty17idt76lbaie/SPLC15.pdf?dl=0 draft]). 
 
 In the paper, the integration has been exploited to analyse a bikes product line. The presented analyses include the likelihood of certain behaviour of interest (e.g. disposal of broken bike), the expected average cost and weight of bikes, and the probability of install and uninstall certain features.
 
