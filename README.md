@@ -7,7 +7,7 @@ The currently supported discrete event simulators are (in alphabetic order):
    * [ARGoS](http://iridia.ulb.ac.be/argos/): _a multi-robot, multi-engine simulator for heterogeneous Swarm robotics_ 
    * [Bio-PEPA](http://www.biopepa.org/ Bio-PEPA): _a language for the modelling and the analysis of biochemical networks_
    * [DEUS](http://code.google.com/p/deus/ DEUS): _a general-purpose, open-source, simulator for the analysis of large scale systems_
-   * [QFLan](https://code.google.com/p/multivesta/wiki/QFLan): _a probabilistic feature-oriented language with quantitative constraints for product families_
+   * [QFLan](https://github.com/andrea-vandin/multivesta/blob/master/wiki/QFLan.wiki): _a probabilistic feature-oriented language with quantitative constraints for product families_
    * [MISSCEL](http://sysma.lab.imtlucca.it/misscel/): _an interpreter and simulator for the Service Component Ensemble Language_
    * Any python simulator, resorting to [Py4J](http://py4j.sourceforge.net/)
    * [Probabilistic Maude](http://www.sciencedirect.com/science/article/pii/S1571066106002672): _an engine to execute probabilistic rewrite theories_
@@ -20,7 +20,7 @@ The currently supported discrete event simulators are (in alphabetic order):
    * _*...and yours with just few lines of code*_ (just [contact us!](mailto:a.vandin@soton.ac.uk;stefano.sebastio@imtlucca.it)).
 
 
-Download [MultiVeStA](https://docs.google.com/file/d/0B1wH4SBkfGwYUklocFMtSWlIMkU/edit?usp=sharing), and check the [http://code.google.com/p/multivesta/w/list Wiki page] of this site for guidelines on using it (or just [contact us!](mailto:andrea.vandin@imtlucca.it;stefano.sebastio@imtlucca.it)).
+Download [MultiVeStA](https://docs.google.com/file/d/0B1wH4SBkfGwYUklocFMtSWlIMkU/edit?usp=sharing), and check the [Wiki page](https://github.com/andrea-vandin/multivesta/tree/master/wiki) of this site for guidelines on using it (or just [contact us!](mailto:andrea.vandin@imtlucca.it;stefano.sebastio@imtlucca.it)).
 
 == Papers ==
    * [MultiVeStA: Statistical Model Checking for Discrete Event Simulators](http://dl.acm.org/citation.cfm?id=2631884) (*please cite this work*) in the proceedings of _VALUETOOLS'13_ ([extended version](http://eprints.imtlucca.it/1798/))
