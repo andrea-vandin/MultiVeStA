@@ -44,8 +44,8 @@ Download [MultiVeStA](https://docs.google.com/file/d/0B1wH4SBkfGwYUklocFMtSWlIMk
 == Acknowledgments ==
 Our work is developed within and supported by the European projects [QUANTICOL](http://www.quanticol.eu/) 600708, and [ASCENS](http://www.ascens-ist.eu/) 257414.
 
-![](http://sysma.imtlucca.it/wp-content/uploads/2013/09/ascens_logo_new-300x50.png)
-[http://sysma.imtlucca.it/wp-content/uploads/2013/09/ascens_logo_new-300x50.png](http://www.ascens-ist.eu/)
+
+[![](http://sysma.imtlucca.it/wp-content/uploads/2013/09/ascens_logo_new-300x50.png)](http://www.ascens-ist.eu/)
 
 We are grateful to the proposers of (P)VeStA, our starting point: Gul Agha, Musab Alturki, José Meseguer, Koushik Sen and Mahesh Viswanathan. 
 
