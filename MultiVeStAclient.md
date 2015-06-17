@@ -1,0 +1,21 @@
+# MultiVeStA client #
+
+In the following are described the parameters through which is possible to describe the MultiVeStA behavior.
+
+  * _**m**_ simulation model name
+  * _**l**_ file name with server list. The file is constituted by row in the format _ipAddress:port_, where each row is the reference to a server
+  * _**se**_ Java class of the state evaluator. Used to compute the model-specific state observation
+  * _**f**_ file containing the MultiQuaTEx expression to be evaluated
+  * _**bs**_ _simulations block size_ specifies the number of simulations performed at each iteration
+  * _**a**_ define the alpha parameter for the required Confidence Interval
+  * _**d1**_ define the delta parameter for the required Confidence Interval
+  * _**osws**_ _one step or whole simulation_ define if the simulation must be performed step-by\_step (ONESTEP) or until the simulation met an internal halting condition (WHOLESIMULATION)
+  * _**sots**_ root seed used to generate (using the Mersenne Twister algorithm) the seeds required to initialize all the simulations
+  * _**sd**_ Java class specifying the state evaluator (the class that extends the MultiVeStA _NewState_)
+  * _**ms**_ maximum number of performed simulations independently if the required Confidence Interval is reached
+  * _**ds**_ _delta list_ useful if the evaluated expressions provide values that differ in order of magnitude
+  * _**vp**_ to visualize or not the gui plot for MultiQuaTEx parametric expression (default is true)
+
+
+E.g.
+-m examples/acoLoadBalancing\_s1.xml -l examples/serverlist1 -se it.imtlucca.aco.dvesta.AcoDeusStateEvaluator -f examples/quatex/acoPerformanceIndicators\_mp\_queue.quatex -bs 3 -a 0.05 -d1 0.0001  -osws ONESTEP -sots 12345 -sd deus.DeusState -ms 5  -ds [0.01,0.02,0.03,0.04]

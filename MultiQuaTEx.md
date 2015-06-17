@@ -1,0 +1,77 @@
+# MultiQuaTEx syntax #
+
+MultiQuaTEx extends the syntax provided by QuaTEx. In the following is summarized the syntax
+
+MQ ::= DS EL
+
+EL ::= list of eval E**[PExp**];
+
+DS ::= set of Defn
+
+Defn ::= N(x1, ..., xm) = PExp;
+
+SExp ::= c | rval(i) | F (SExp1, ..., SExpk ) | xj
+
+PExp ::= SExp | #N(SExp1, ..., SExpn) | if SExp then PExp1 else PExp2 fi
+
+# Examples #
+
+In the following are provided some simple examples supposing that the state evaluator provides the requested observations.
+_Note_: these examples are extracted from the paper. Refer to it for further details
+
+## Basic expression ##
+
+_Compute the expected number of tasks executed (**rval(6)**) in a simulation (**rval(0)**)_
+
+tOp () = if { s.rval(0) == 1.0 } then s.rval(6) else #tOp () fi ;
+
+eval E**[tOp()]**;
+
+
+## Parametric expression ##
+
+_Compute the expected value of the mean time spent by tasks in queue (**rval(5)**), imposing 30 as maximum simulation time (**rval(1)**)_
+
+tOpB (x) = if { s.rval(1) >= x } then s.rval(5) else #tOpB () fi ;
+
+eval E**[tOp(30.0)]**;
+
+
+## Multi expression ##
+
+_It is possible to combine the previous two expressions in a single one, thus reducing the required number of simulation runs._
+
+tOp () = if { s.rval(0) == 1.0 } then s.rval(6) else #tOp () fi ;
+
+tOpB (x) = if { s.rval(1) >= x } then s.rval(5) else #tOpB ({x}) fi ;
+
+eval E**[tOp()]**; eval E**[tOpB(30.0)]**;
+
+
+## Parametric - Multi expression (1) ##
+
+_Evaluating the time spent by tasks in queue at different times_
+
+tOpC (x) = if { s.rval(2) <= x } then s.rval(5) else #tOpC ({x}) fi ;
+
+eval E**[tOpC(10.0)]**; eval E**[tOpC(20.0)]**;
+
+eval E**[tOpC(30.0)**]; eval E**[tOpC(40.0)]**;
+
+eval E**[tOpC(50.0)**]; eval E**[tOpC(60.0)]**;
+
+
+## Parametric - Multi expression (2) ##
+
+_Exploiting the MultiQuaTEx syntax is possible to define the previous expression in a more compact and elegant manner_
+
+tOpC (x) = if { s.rval(2) <= x } then s.rval(5) else #tOpC ({x}) fi ;
+
+eval parametric(E**[tOpC(x)]**,x,10.0,10.0,60.0) ;
+
+
+## More complex expression ##
+
+Using temporal operator it is possible to encode more complex expressions. E.g. using the _until_ operator
+
+U(1 ,2) = if { 2 } then 1 else if { 1 } then #U(1 ,2) else 0 fi fi ;

@@ -1,0 +1,15 @@
+# Link your simulation model to MultiVeStA #
+
+Here are described the steps that must be followed before analyze your model using MultiVeStA. However, if you have a simulator, and you want to enrich it with efficient, distributed and automated statistical analysis techniques, just send an e-mail to us, and we will be happy collaborate to the integration.
+
+
+## Implement model specific state evaluation ##
+
+Often analyzing a model is required to make observations that are model specific and thus can not be defined in the _NewState_ class extension done by your simulator, e.g., count the number of robots collisions, evaluate the time spent by a task in queue, etc.
+
+To do this can be needed implements the _**IStateEvaluator**_ for your model. This class is constituted by only one method _**getVal( int observation , NewState state )**_ called by your _NewState_ when the observation are model specific.
+This method takes the current simulation state (_state_) and the observation of interest (_observation_) and must analyze the current state returning a _double_ corresponding to the propery of interest.
+
+
+## Define the MultiQuaTEx expressions ##
+The system properties of interest can be encoded using the basic QuaTEx Language or its extended version in MultiQuaTEx that adds support to parametric and multi -query.
