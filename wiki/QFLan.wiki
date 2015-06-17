@@ -1,4 +1,4 @@
-#summary Notes on the integration with QFLan.
+##summary Notes on the integration with QFLan.##
 
 = MultiVeStA for the Analysis of probabilistic models of Software Product Lines with Quantitative Constraints =
 
