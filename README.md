@@ -17,10 +17,10 @@ The currently supported discrete event simulators are (in alphabetic order):
 
 
    * _other simulators coming soon_
-   * _*...and yours with just few lines of code*_ (just [mailto:a.vandin@soton.ac.uk;stefano.sebastio@imtlucca.it contact us!]).
+   * _*...and yours with just few lines of code*_ (just [contact us!](mailto:a.vandin@soton.ac.uk;stefano.sebastio@imtlucca.it)).
 
 
-Download [MultiVeStA](https://docs.google.com/file/d/0B1wH4SBkfGwYUklocFMtSWlIMkU/edit?usp=sharing), and check the [http://code.google.com/p/multivesta/w/list Wiki page] of this site for guidelines on using it (or just [mailto:andrea.vandin@imtlucca.it;stefano.sebastio@imtlucca.it contact us!]).
+Download [MultiVeStA](https://docs.google.com/file/d/0B1wH4SBkfGwYUklocFMtSWlIMkU/edit?usp=sharing), and check the [http://code.google.com/p/multivesta/w/list Wiki page] of this site for guidelines on using it (or just [contact us!](mailto:andrea.vandin@imtlucca.it;stefano.sebastio@imtlucca.it)).
 
 == Papers ==
    * [MultiVeStA: Statistical Model Checking for Discrete Event Simulators](http://dl.acm.org/citation.cfm?id=2631884) (*please cite this work*) in the proceedings of _VALUETOOLS'13_ ([http://eprints.imtlucca.it/1798/ extended version])
