@@ -23,7 +23,7 @@ The currently supported discrete event simulators are (in alphabetic order):
 Download [MultiVeStA](https://docs.google.com/file/d/0B1wH4SBkfGwYUklocFMtSWlIMkU/edit?usp=sharing), and check the [http://code.google.com/p/multivesta/w/list Wiki page] of this site for guidelines on using it (or just [contact us!](mailto:andrea.vandin@imtlucca.it;stefano.sebastio@imtlucca.it)).
 
 == Papers ==
-   * [MultiVeStA: Statistical Model Checking for Discrete Event Simulators](http://dl.acm.org/citation.cfm?id=2631884) (*please cite this work*) in the proceedings of _VALUETOOLS'13_ ([http://eprints.imtlucca.it/1798/ extended version])
+   * [MultiVeStA: Statistical Model Checking for Discrete Event Simulators](http://dl.acm.org/citation.cfm?id=2631884) (*please cite this work*) in the proceedings of _VALUETOOLS'13_ ([extended version](http://eprints.imtlucca.it/1798/))
    * [Statistical Analysis of Probabilistic Models of Software Product Lines with Quantitative Constraints](https://www.dropbox.com/s/qty17idt76lbaie/SPLC15.pdf?dl=0) in the proceedings of _  SPLC'15 _
    * [Quantitative Analysis of Probabilistic Models of Software Product Lines with Statistical Model Checking](http://arxiv.org/ct?url=http%3A%2F%2Fdx.doi.org%2F10%252E4204%2FEPTCS%252E182%252E5&v=3359e1fe) in the proceedings of _  FMSPLE'15 _
    * [An Analysis Pathway for the Quantitative Evaluation of Public Transport Systems](http://link.springer.com/chapter/10.1007%2F978-3-319-10181-1_5)  in the proceedings of _  IFM'14 _
