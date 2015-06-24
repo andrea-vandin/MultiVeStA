@@ -27,7 +27,7 @@ Download [MultiVeStA](https://docs.google.com/file/d/0B1wH4SBkfGwYUklocFMtSWlIMk
    * [Statistical Analysis of Probabilistic Models of Software Product Lines with Quantitative Constraints](https://www.dropbox.com/s/qty17idt76lbaie/SPLC15.pdf?dl=0) in the proceedings of _  SPLC'15 _
    * [Quantitative Analysis of Probabilistic Models of Software Product Lines with Statistical Model Checking](http://arxiv.org/ct?url=http%3A%2F%2Fdx.doi.org%2F10%252E4204%2FEPTCS%252E182%252E5&v=3359e1fe) in the proceedings of _  FMSPLE'15 _
    * [An Analysis Pathway for the Quantitative Evaluation of Public Transport Systems](http://link.springer.com/chapter/10.1007%2F978-3-319-10181-1_5)  in the proceedings of _  IFM'14 _
-   * [Distributed statistical analysis of complex systems modeled through a chemical metaphor](http://eprints.imtlucca.it/1697/)  in the proceedings of _  HPCS'14 _
+   * [Distributed statistical analysis of complex systems modeled through a chemical metaphor](https://www.dropbox.com/s/i3noix62eufz63x/HPCS2014.pdf?dl=0)  in the proceedings of _  HPCS'14 _
    * [Reasoning (on) Service Component Ensembles in Rewriting Logic](http://link.springer.com/chapter/10.1007%2F978-3-642-54624-2_10) in the proceedings of _  SAS'14 _
    * [A Computational Field Framework for Collaborative Task Execution in Volunteer Clouds](http://dx.doi.org/10.1145/2593929.2593943) in the proceedings of _ SEAMS'14 _
    * [Reputation-based Cooperation in the Clouds](http://dx.doi.org/10.1007/978-3-662-43813-8_15) in the proceedings of _ IFIPTM'14 _
